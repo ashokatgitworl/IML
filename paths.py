@@ -27,11 +27,11 @@ ENV_FPATH = ROOT_DIR / ".env"
 
 CODE_DIR = ROOT_DIR / "code"
 
-APP_CONFIG_FPATH = ROOT_DIR / "mount/src/IML" / "config" / "config.yaml"
-PROMPT_CONFIG_FPATH = ROOT_DIR / "mount/src/IML" / "config" / "prompt_config.yaml"
-OUTPUTS_DIR = ROOT_DIR / "mount/src/IML" / "outputs"
+APP_CONFIG_FPATH = ROOT_DIR / "workspaces/IML" / "config" / "config.yaml"
+PROMPT_CONFIG_FPATH = ROOT_DIR / "workspaces/IML" / "config" / "prompt_config.yaml"
+OUTPUTS_DIR = ROOT_DIR / "workspaces/IML" / "outputs"
 
-DATA_DIR = ROOT_DIR / "mount/src/IML" / "Source"
+DATA_DIR = ROOT_DIR / "workspaces/IML" / "Source"
 PUBLICATION_FPATH = DATA_DIR / "publication.md"
 
 VECTOR_DB_DIR = OUTPUTS_DIR / "vector_db"
