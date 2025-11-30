@@ -12,8 +12,8 @@ ENV_FPATH = ROOT_DIR / ".env"
 
 CODE_DIR = ROOT_DIR / "code"
 
-APP_CONFIG_FPATH = APP_ROOT / "IML" / "config.yaml"
-PROMPT_CONFIG_FPATH = APP_ROOT /"IML" / "prompt_config.yaml"
+APP_CONFIG_FPATH = APP_ROOT / "config.yaml"
+PROMPT_CONFIG_FPATH = APP_ROOT / "prompt_config.yaml"
 OUTPUTS_DIR = ROOT_DIR / "workspaces/IML" / "outputs"
 
 DATA_DIR = ROOT_DIR / "workspaces/IML" / "Source"
